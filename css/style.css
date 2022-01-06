@@ -9,13 +9,10 @@ header {
 #logo {
     float: left;
 }
-#menu-nav {
-    
-}
+
 #menu-nav a {
     float: right;
     display: block;
-    list-style: none;
 }
 
 main {
