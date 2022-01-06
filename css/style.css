@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+header {
+    background: #2ca5e0;
+    padding: 20px;
+}
+#logo {
+    float: left;
+}
+#menu-nav {
+    
+}
+#menu-nav a {
+    float: right;
+    display: block;
+    list-style: none;
+}
+
+main {
+    clear: both;
+}
