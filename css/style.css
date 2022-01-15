@@ -68,6 +68,7 @@ main {
     width: 90%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     background-color: #fcf9f9;
 }
 #principal {
@@ -107,5 +108,23 @@ Formatação do conteúdo SECUNDÁRIO
 #container-space {
     margin-top: 20px;
 }
+
+/*
+Formatação do RODAPÉ
+*/
+#container-footer {
+    width: 100%;
+    border-bottom: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    background-color: #6b6bf0b9;
+    opacity: 0.5px;
+}
+#rodape {
+    margin-top: 20px;
+    padding: 20px;
+    color: #fff;
+}
+
 
 
