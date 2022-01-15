@@ -100,9 +100,12 @@ main {
 /*
 Formatação do conteúdo SECUNDÁRIO
 */
-#container-secundario {
+.baner4 {
     width: 100%;
-    border-top: 20px;
+    height: 275px;
+}
+#container-space {
+    margin-top: 20px;
 }
 
 
