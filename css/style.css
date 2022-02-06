@@ -11,7 +11,7 @@ body{
 }
 header {
     width: 100%;
-    height: 120px;
+    height: 100px;
     background-color: hsla(240, 82%, 68%, 0.725);
     display: flex;
     justify-content: space-around;
@@ -26,7 +26,7 @@ header {
     width: 50px;
     height: 50px;
     background: #000;
-    border-radius: 20%;
+    border-radius: 50%;
 }
 .container-logo {
     display: flex;
@@ -35,7 +35,7 @@ header {
 #sub-logo-img {
     height: 30px;
     width: 30px;
-    border-radius: 8px;
+    border-radius: 50%;
     background-color: #fff;
 }
 .logo-texto  {
@@ -45,6 +45,9 @@ header {
     text-decoration: none;
     color: #fff;
     font-size: 25px;
+}
+.logo-texto a:hover {
+    font-size: 20px;
 }
 #menu-nav li {
     display: inline-block;
@@ -67,6 +70,30 @@ header {
 FORMATAÇÃO DO MAIN
 */
 
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 40px;
+}
+.container-text {
+    width: 50%;
+    height: 440px;
+    background: #ff0000;
+}
+.container-img {
+    width: 50%;
+    height: 356px;
+    background: #00ff;
+}
+.text-card {
+    width: 100%;
+    font-size: 40px;
+    
+}
+
 
 #container-banner {
    /* width: 100%;*/
@@ -76,9 +103,12 @@ FORMATAÇÃO DO MAIN
     align-items: center;
     flex-direction: column;
     height: 445px;
+    margin-bottom: 40px;
 }
 #container-banner h1 {
     letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 35px;
 }
 
 
@@ -94,10 +124,6 @@ main {
 /*
 Formatação do conteúdo SECUNDÁRIO
 */
-.baner4 {
-    width: 100%;
-    height: 275px;
-}
 #container-space {
     margin-top: 20px;
 }
@@ -112,6 +138,7 @@ Formatação do RODAPÉ
     justify-content: center;
     background-color: #6b6bf0b9;
     opacity: 0.5px;
+    margin-top: 20px;
 }
 #rodape {
     margin-top: 20px;
