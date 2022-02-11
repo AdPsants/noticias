@@ -67,36 +67,10 @@ header {
     transition: all 0.4s cubic-bezier(.86,.01,.15,.99);
 }
 /*
-FORMATAÇÃO DO MAIN
+FORMATAÇÃO DO BANNER DE BOAS VINDAS
 */
-
-.card-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    border-radius: 4px;
-    margin-top: 40px;
-}
-.container-text {
-    width: 50%;
-    height: 440px;
-    background: #ff0000;
-}
-.container-img {
-    width: 50%;
-    height: 356px;
-    background: #00ff;
-}
-.text-card {
-    width: 100%;
-    font-size: 40px;
-    
-}
-
-
 #container-banner {
-   /* width: 100%;*/
+    width: 100%;
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
@@ -110,22 +84,44 @@ FORMATAÇÃO DO MAIN
     font-weight: bold;
     font-size: 35px;
 }
-
-
+/*
+FORMATAÇÃO DO MAIN
+*/
 main {
     margin: 0 auto;
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    width: 1200px;
     background-color: #fcf9f9;
 }
-
-/*
-Formatação do conteúdo SECUNDÁRIO
-*/
-#container-space {
-    margin-top: 20px;
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 40px;
+    background: #fff;
+}
+.container-text {
+    width: 50%;
+    height: 440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 20px;
+}
+.container-img img {
+    width: 100%;
+    height: 356px;
+    background: #00ff;
+}
+.text-card {
+    width: 100%;
+    font-size: 40px;
+}
+.container-liguagens {
+    margin-top: 80px;
+    background: #00ff;
 }
 
 /*
