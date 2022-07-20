@@ -12,11 +12,12 @@ body{
 header {
     width: 100%;
     height: 90px;
-    background-color: #0085c6;
+    background-color: #131e2f;
     display: flex;
     justify-content: space-around;
     align-items: center;
     border-bottom: 3px solid #000;
+    position: relative;
 }
 
 .logo-imagem {
@@ -44,7 +45,6 @@ header {
 .logo-texto a {
     text-decoration: none;
     color: #fff;
-    font-size: 20px;
 }
 .logo-texto a:hover {
     
@@ -57,28 +57,48 @@ header {
     text-transform: uppercase;
     color: #fff;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
     padding: 10px;
     cursor: pointer;
 }
 
 #menu-nav li a:hover {
     border-bottom: 1px solid #fff;
-    color: #000;
     transition: all 0.4s cubic-bezier(.86,.01,.15,.99);
 }
+
 #container-pesquisar #text-pesquisar {
     height: 30px;
     border: 1px solid #c1c1c1;
     border-radius: 4px;
 }
 #login a {
-    color: #000;
+    color: #fff;
     font-size: 20px;
     text-decoration: none;
     display: inline-block;
     margin-right: 4px;  
-    border-bottom: 1px solid #000;  
+    border-bottom: 1px solid #fff;  
+}
+.bloco-icones {
+    height: 30px;
+    float: left;
+}
+.bloco-icones input[type='text'] {
+    float: left;
+    height: 100%;
+    width: 80%;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    text-align: center;
+    font-weight: 700;
+}
+.bloco-icones button { 
+    height: 100%;
+    width: 20%;
+    border: none;
+    background-color: #c1c1c1;
+    border-radius: 0 5px 5px 0;
 }
 #text-pesquisar::placeholder {
     padding-left: 5px;
@@ -86,10 +106,11 @@ header {
 #login .btn-cadastro {
     padding: 5px;
     font-weight: bold;
-    background-color: #EC6432;
+    background-color: #3A89FF;
     opacity: 0.8;
     border-radius: 4px;
     border: none;
+    cursor: pointer;
 }
 
 /*
@@ -176,7 +197,7 @@ Formatação do RODAPÉ
     border-bottom: 2px solid #000;
     display: flex;
     justify-content: center;
-    background-color: #6b6bf0b9;
+    background-color: #131E2F;
     opacity: 0.5px;
     margin-top: 20px;
 }
